@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;700&family=Pacifico&display=swap');
+
+body{
+    font-family:'Roboto', sans-serif;;
+}
+
+
+.navbar{
+    background-color: #000;
+}
+
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: gray;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+#sobre-o-restaurante, #lista-filmes{
+    background-color:  #ffeae6;
+
+}
+
+.text-colored{
+    color: red;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: rgb(122, 24, 24)   ;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: red;
+}
+
+
+.tab-content img{
+    height: 160px;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:767px) {
+    .carousel-item img{
+        height: 180px;
+    }
+}
